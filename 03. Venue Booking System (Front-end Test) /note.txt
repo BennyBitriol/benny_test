@@ -1,0 +1,1 @@
+please use this following query ` ?roomId=A101&weekNo=wholeMonth `

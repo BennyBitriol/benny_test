@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="left-part">
+        <div id="room-container">
+          <div id="room-id"></div>
+          <div id="left-content">
+            <div style="color: white; font-weight: 600">Upcoming</div>
+            <div style="margin-top: 2rem">
+              <div
+                id="upcoming-day"
+                style="font-size: 64px; color: #ffffff; opacity: 50%"
+              ></div>
+              <div
+                id="upcoming-date"
+                style="font-size: 64px; color: #ffffff"
+              ></div>
+            </div>
+            <div style="margin-top: 2rem">
+              <div id="upcoming-bookings" style="margin-top: 5rem"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="right-part">
+        <div id="header">
+          <nav id="menu">
+            <ul>
+              <li><a id="thisWeekMenu">THIS WEEK</a></li>
+              <li><a id="nextWeekMenu">NEXT WEEK</a></li>
+              <li><a id="wholeMonthMenu">WHOLE MONTH</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div id="timeline">
+          <div style="padding-left: 2rem" id="timeline-header"></div>
+          <ul id="timeline-events"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
